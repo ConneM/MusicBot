@@ -1,0 +1,72 @@
+##########################################
+#                 Embeds                 #
+##########################################
+
+CATEGORY:
+  MUSIC:
+    PAUSE:
+      embed_1:
+        description: "No music is the queued"
+        color: "Red"
+      embed_2:
+        description: "Paused the music"
+        color: "Green"
+    RESUME:
+      embed_1:
+        description: "No music is the queued"
+        color: "Red"
+      embed_2:
+        description: "Resumed the music"
+        color: "Green"
+    SKIP:
+      embed_1:
+        description: "No music is the queued"
+        color: "Red"
+      embed_2:
+        description: "Skipped the current song"
+        color: "Green"
+      embed_3:
+        description: "Skipped [{song.name}]({song.url})"
+        color: "Red"
+    STOP:
+      embed_1:
+        description: "No music is the queued"
+        color: "Red"
+      embed_2:
+        description: "Stopped the music"
+        color: "Green"
+    VOLUME:
+      embed_1:
+        description: "No music is the queued"
+        color: "Red"
+      embed_2:
+        description: "Please specify a volume between 0 and 200"
+        color: "Red"
+      embed_3:
+        description: "Set the volume to {volume}"
+        color: "Green"
+    NOW_PLAYING:
+      embed_1:
+        title: "Now Playing"
+        description: "{song.name}"
+        color: "Red"
+    PREVIOUS:
+      embed_1:
+        description: "No previous song to skip to"
+        color: "Red"
+    ADD_SONG:
+      embed_1:
+        description: "<a:accepted:957394701143666688> | Queued [{song.name}]({song.url})"
+        color: "#2F3136"
+    ADD_LIST:
+      embed_1:
+        description: "<a:accepted:957394701143666688> | Queued [{playlist.name}]({playlist.url})"
+        color: "#2F3136"
+    ERROR:
+      embed_1:
+        description: ":x: | An error ocurred"
+        color: "Red"
+    EMPTY:
+      embed_1:
+        description: ":x: | Couldn't find any track"
+        color: "Red"

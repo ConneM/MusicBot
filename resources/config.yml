@@ -1,0 +1,15 @@
+##########################################
+#                 Config                 #
+##########################################
+
+CONFIG: # BOT CONFIGURATION
+  BOT:
+    TOKEN: "MTAyMzc0NTYyMzMzMTE5Mjg5Mw.Gsm8uN.c6VRvOLYvn4kdKLTKyaYsFcrKiwexIDCUglhjs"
+# MUSIC CONFIGURATION
+  MUSIC:
+    EMIT_NEW_SONG_ONLY: false
+    LEAVE_ON_EMPTY: false
+    LEAVE_ON_FINISH: false
+    LEAVE_ON_STOP: false
+    NSFW: true
+    EMPTY_COOLDOWN: 25
